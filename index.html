@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div>
+        <p class="result">0</p>
+      </div>
+      <div>
+        <button onclick="appendNumber('9')" title="Bấm vào đây">9</button>
+        <button onclick="appendNumber('8')" title="Bấm vào đây">8</button>
+        <button onclick="appendNumber('7')" title="Bấm vào đây">7</button>
+        <button onclick="appendOperator('÷')" title="bấm vào đây">÷</button>
+      </div>
+      <div>
+        <button onclick="appendNumber('6')" title="Bấm vào đây">6</button>
+        <button onclick="appendNumber('5')" title="Bấm vào đây">5</button>
+        <button onclick="appendNumber('4')" title="Bấm vào đây">4</button>
+        <button onclick="appendOperator('x')" title="bấm vào đây">x</button>
+      </div>
+      <div>
+        <button onclick="appendNumber('3')" title="Bấm vào đây">3</button>
+        <button onclick="appendNumber('2')" title="Bấm vào đây">2</button>
+        <button onclick="appendNumber('1')" title="Bấm vào đây">1</button>
+        <button onclick="appendOperator('-')" title="bấm vào đây">-</button>
+      </div>
+      <div>
+        <button onclick="appendNumber('0')" title="Bấm vào đây">0</button>
+        <button onclick="appendNumber(',')" title="Bấm vào đây" class="dau_play">,</button>
+        <button onclick="calculate()" title="Bấm vào đây">=</button>
+        <button onclick="appendOperator('+')" title="bấm vào đây">+</button>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
